@@ -1,0 +1,13 @@
+.navbar-brand{
+    background-color: aqua;
+    border-radius: 10px;
+
+
+}
+.btn
+{
+    
+    border-radius: 20px;
+    align-items: center;
+    text-align: right;
+}
