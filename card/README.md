@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+Install:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Step 1: Fork the project.
 
-## Available Scripts
+Step 2: Clone it to your local system.
 
-In the project directory, you can run:
+Step 3: Check if Node is installed in your Operating system.
 
-### `yarn start`
+a) To check if Node is installed, open the command prompt or similar command line tool and type 'node -v'. This should print a version number which means Node is successfully installed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+b) If you see an error, it means that Node is not installed in your OS. You can download Node.js from 'https://nodejs.org/en/download/'. After completing the installation repeat the part (a) of step 3.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Step 4: On command prompt under your cloned folder directory path, run 'npm install' to install all the dependencies.
 
-### `yarn test`
+Step 5: Finally run 'npm start' to start the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Step 6: Visit localhost:3000 in your browser.
 
-### `yarn build`
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Working:
+1:this is an react application ,which is fetching data from API and showing the data on the grid format with the help of bootstrap framework.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2:I have used  bit of css to give color to the application. 
+Method:
+1:I have used fetchPosts function to get the api data and using map function display the data as per the need.
+2: I have also used setTimeout() method  which calls a function or evaluates an expression after a specified number of milliseconds.  
+3: In side the fetchPosts function i have used fetch() method to call the the API.
+4: Used material ui which is a  an open-source project that features React components that implement Google's Material Design.
+5: Using material ui i have added loading(loader) feature 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+How to use it:
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1:click on the Get User Button which is located in the navbar at right corner.
+2:when you click the button it shows the loading feature which i have added using material ui and after 2 sec it fetch the data from API and shows on the page using grid pattern. 
+3:that's it.

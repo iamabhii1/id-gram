@@ -1,19 +1,35 @@
 body{
-  background: #eee5e9;
+  background: #fdfcdc;
 }
-.row{
-  margin: 80px;
+.container{
+  position: relative;
+  box-sizing: border-box;
+  right: 10px;
+  padding: 10px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap:30px;
-  align-items: center;
+
 }
-.grid>col{
-  background: #eee5e9;
-  border: none;
-  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
-  border-radius:20px;
-  text-align:center;
-  width:250px;
-  transition: transform .3s;
+.navbar{
+  background-color:  #fed9b7;
+}
+.navbar-brand{
+  font-family: cursive;
+  font-weight: bold;
+  color: black;
+}
+.click{
+  font-family: cursive;
+  font-weight: bold;
+  color: black;
+  font-variant: normal;
+  font-style: italic;
+  
+}
+.btn
+{ 
+  border-radius: 10px;
+}
+.card-body{
+  background-color: #bee3db;
 }
