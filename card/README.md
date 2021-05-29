@@ -18,7 +18,7 @@
 
 
 ## Working:
->- This is an react application ,which is fetching data from API and showing the data on the grid format with the help of bootstrap framework.
+>- This is an react application ,which is fetching data from API ("https://reqres.in/api/users?page=1") and showing the data on the grid format with the help of bootstrap framework.
 >
 >- I have used  bit of css to give color to the application.
 
