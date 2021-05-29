@@ -36,8 +36,8 @@
 >- When you click the button it shows the loading feature which i have added using material ui and after 2 sec it fetch the data from API and shows on the page using grid pattern. 
 
 ## Link:
-> (currently not working)(technical issue)
-> (but you can clone it and use it )
-> https://iamabhii1.github.io/id-gram/
+>- currently not working due to technical issue.
+>- but you can clone it and use it .
+>- https://iamabhii1.github.io/id-gram/
 
 ## **_That's it._**
